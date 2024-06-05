@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    display: flex;
+}
+.form{
+    background-color: rgb(170, 214, 177);
+    border: 1px solid #777;
+    justify-content: center;
+    align-items: right;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+    
+}
+
+.form .content{
+    text-align: center;
+}
+.form .remeber-forgot .input{
+    text-align: left;
+    background-color: blue;
+}
+.form .remeber-forgot a{
+    text-align: right;
+    /* background-color: pink; */
+    color: black;
+}
+.form .mail{
+    padding-bottom: 0.6rem;
+}
+.form .mail input{
+    width: 100%;
+    background-color: rgba(126, 190, 151, 0.744);
+}
+
+.form .pass input{
+    width: 100%;
+    background-color: rgba(126, 190, 151, 0.744);
+    
+}
+
+.form .pass {
+    padding-bottom: 1rem;
+}
+
+.form .remeber-forgot{
+    padding-bottom: 1rem;
+}
+
+.or{
+    padding-top: 1rem;
+}
+
+
+button{
+    width: 100px;
+    background-color: rgb(93, 178, 93);
+    border: none;
+    box-shadow: #777;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+    transition: all 0.5s ease;
+}
+
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button a{
+    color: black;
+    
+}
+
+button a:hover{
+    color: rgb(1, 36, 6);
+    text-decoration: none;
+}
+
+h5 a{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: black;
+}
+
+.fo a i{
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.fo a:hover{
+    text-decoration: none;
+    color:rgb(67, 67, 67)
+}
+
+.fo a{
+    color: black;
+}
+

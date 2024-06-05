@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foster's Skincare Serum - RedStore</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            font-family: "Roboto", sans-serif;
+        }
+        
+        .navbar{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        nav{
+            flex: 1;
+            text-align: right;
+        }
+        nav ul{
+            display: inline-block;
+            list-style-type: none;
+        }
+        
+        nav ul li{
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        a{
+            text-decoration: none;
+            color: #555;
+        }
+        p{
+            color: #555;
+        }
+        .container{
+            max-width: 1300px;
+            margin: auto;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap; /*không đủ dòng thì cho xuống 1 dòng mới*/
+            justify-content: space-around;
+        }
+        .col-2{
+            flex-basis: 50%;
+            min-width: 300px;
+        }
+        
+        .col-2 img{
+            max-width: 100%;
+            padding: 50px 0;
+            border-radius: 50%; 
+        }
+        .col-2 h1{
+            font-size: 50px;
+            line-height: 60px;
+            margin: 25px 0; 
+        }
+        .btn{
+            display: inline-block;
+            background: #d1633f;
+            color: #fff;
+            padding: 8px 30px;
+            margin: 30px 0;
+            border-radius: 30px;   
+            transition: background 0.5s;  /*re chuot den la doi mau */
+        }
+        
+        .btn:hover{
+            background: #563434;
+        }
+
+        .header .row{
+            margin-top: 70px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            color: #ff523b;
+        }
+        .product-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 0;
+            background-color: #fff;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .product-image {
+            flex: 1;
+            text-align: center;
+        }
+        .product-image img {
+            max-width: 80%;
+            border-radius: 10px;
+        }
+        .product-details {
+            flex: 1;
+            padding: 20px;
+        }
+        .product-details h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .product-details p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .product-details .price {
+            font-size: 28px;
+            color: #ff523b;
+            margin-bottom: 20px;
+        }
+        .product-details .original-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-left: 10px;
+        }
+        .product-details button {
+            background: #ff523b;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .product-details button:hover {
+            background: #ff6f61;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header1">
+        <div class="container">
+            <div class="navbar">
+                <div class = "logo">
+                    <img src = "images/logo.png" style = "width: 125px">
+                </div>
+                <nav>
+                    <ul id = "MenuItems">
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "about.html">About</a></li>
+                        <li><a href = "contact.html">Contact</a></li>
+                        <li><a href = "login.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src = "images/cart.png" width = "25px" height = "25px">
+        
+            </div>
+        </div>
+        </div>
+
+    <div class="container">
+        <div class="row product-section">
+            <div class="product-image col-lg-5 col-md-6 col-sm-12">
+                <img src="images/skincare1.jpg" alt="Foster's Skincare Serum">
+            </div>
+            <div class="product-details col-lg-7 col-md-6 col-sm-12">
+                <h1>Foster's Skincare Serum</h1>
+                <p>The Foster's Skincare Serum boasts a 39.9% improvement in formula effectiveness compared to our previous version, featuring a blend of powerful ingredients for a clearer, brighter complexion.</p>
+                <div class="price">$125.99 <span class="original-price">$159.99</span></div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src = "images/logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Skincare Accessible to All.</p>
+    
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+    
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class ="copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
